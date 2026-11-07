@@ -1,0 +1,41 @@
+{
+	"menu_id": "legstats_options_menu/ksg_same",
+	"parent_menu_id": "legstats_options_menu",
+	"title": "legstats_options_menu/ksg_same_title",
+	"description": "legstats_options_menu/ksg_same_desc",
+	"back_callback": "legstats_callback_back",
+	"items": [
+		{
+			"type": "toggle",
+			"id": "wpn_fps_sho_ksg_b_legendary_hide_barrel_ext",
+			"title": "legstats_hide_barrel_ext_title",
+			"description": "legstats_barrel_hides_barrel_ext_desc",
+			"callback": "legstats_callback_toggle",
+			"value": "wpn_fps_sho_ksg_b_legendary_hide_barrel_ext"
+		},
+		{
+			"type": "divider",
+			"size": 16
+		},
+		{
+			"type": "multiple_choice",
+			"id": "wpn_fps_sho_ksg_b_legendary",
+			"title": "bm_menu_barrel",
+			"description": "wpn_fps_sho_ksg_b_legendary_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig",
+				"legstats_choice_none",
+				"bm_wp_ksg_b_short",
+				"bm_wp_ksg_b_long"
+			],
+			"item_values": [
+				"orig",
+				"none",
+				"wpn_fps_sho_ksg_b_short",
+				"wpn_fps_sho_ksg_b_long"
+			],
+			"value": "wpn_fps_sho_ksg_b_legendary"
+		}
+	]
+}

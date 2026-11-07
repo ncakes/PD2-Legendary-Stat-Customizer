@@ -1,0 +1,23 @@
+{
+	"menu_id": "legstats_options_menu/rpg7_boom",
+	"parent_menu_id": "legstats_options_menu",
+	"title": "legstats_options_menu/rpg7_boom_title",
+	"description": "legstats_options_menu/rpg7_boom_desc",
+	"back_callback": "legstats_callback_back",
+	"items": [
+		{
+			"type": "multiple_choice",
+			"id": "wpn_fps_rpg7_m_grinclown",
+			"title": "legstats_bm_menu_rocket",
+			"description": "wpn_fps_rpg7_m_grinclown_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig_none"
+			],
+			"item_values": [
+				"orig"
+			],
+			"value": "wpn_fps_rpg7_m_grinclown"
+		}
+	]
+}

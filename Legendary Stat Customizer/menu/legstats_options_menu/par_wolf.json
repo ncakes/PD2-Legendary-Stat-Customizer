@@ -1,0 +1,55 @@
+{
+	"menu_id": "legstats_options_menu/par_wolf",
+	"parent_menu_id": "legstats_options_menu",
+	"title": "legstats_options_menu/par_wolf_title",
+	"description": "legstats_options_menu/par_wolf_desc",
+	"back_callback": "legstats_callback_back",
+	"items": [
+		{
+			"type": "toggle",
+			"id": "wpn_fps_lmg_svinet_b_standard_hide_barrel_ext",
+			"title": "legstats_hide_barrel_ext_title",
+			"description": "legstats_barrel_hides_barrel_ext_desc",
+			"callback": "legstats_callback_toggle",
+			"value": "wpn_fps_lmg_svinet_b_standard_hide_barrel_ext"
+		},
+		{
+			"type": "divider",
+			"size": 16
+		},
+		{
+			"type": "multiple_choice",
+			"id": "wpn_fps_lmg_svinet_b_standard",
+			"title": "bm_menu_barrel",
+			"description": "wpn_fps_lmg_svinet_b_standard_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig",
+				"legstats_choice_none",
+				"bm_wp_par_b_short"
+			],
+			"item_values": [
+				"orig",
+				"none",
+				"wpn_fps_lmg_par_b_short"
+			],
+			"value": "wpn_fps_lmg_svinet_b_standard"
+		},
+		{
+			"type": "multiple_choice",
+			"id": "wpn_fps_lmg_svinet_s_legend",
+			"title": "bm_menu_stock",
+			"description": "wpn_fps_lmg_svinet_s_legend_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig_none",
+				"bm_wp_par_s_plastic"
+			],
+			"item_values": [
+				"orig",
+				"wpn_fps_lmg_par_s_plastic"
+			],
+			"value": "wpn_fps_lmg_svinet_s_legend"
+		}
+	]
+}

@@ -1,0 +1,86 @@
+{
+	"barrel_ext": {
+		"wpn_fps_pis_deagle_b_legend": [
+			"wpn_fps_pis_deagle",
+			"wpn_fps_x_deagle"
+		],
+		"wpn_fps_smg_p90_b_legend": [
+			"wpn_fps_smg_p90",
+			"wpn_fps_smg_x_p90"
+		],
+		"wpn_fps_shot_r870_b_legendary": [
+			"wpn_fps_shot_r870"
+		],
+		"wpn_fps_shot_r870_b_legendary_addon_serbu": [
+			"wpn_fps_shot_serbu"
+		],
+		"wpn_fps_lmg_svinet_b_standard": [
+			"wpn_fps_lmg_par"
+		],
+		"wpn_fps_ass_m16_b_legend": [
+			"wpn_fps_ass_m16"
+		],
+		"wpn_fps_ass_m16_b_legend_addon_amcar": [
+			"wpn_fps_ass_amcar"
+		],
+		"wpn_fps_ass_m16_b_legend_addon_new_m4": [
+			"wpn_fps_ass_m4"
+		],
+		"wpn_fps_ass_m16_b_legend_addon_olympic": [
+			"wpn_fps_smg_olympic",
+			"wpn_fps_smg_x_olympic"
+		],
+		"wpn_fps_pis_judge_b_legend": [
+			"wpn_fps_pis_judge",
+			"wpn_fps_pis_x_judge"
+		],
+		"wpn_fps_sho_boot_b_legendary": [
+			"wpn_fps_sho_boot"
+		],
+		"wpn_fps_sho_ksg_b_legendary": [
+			"wpn_fps_sho_ksg"
+		],
+		"wpn_fps_ass_tecci_b_legend": [
+			"wpn_fps_ass_tecci"
+		],
+		"wpn_fps_shot_shorty_b_legendary": [
+			"wpn_fps_shot_serbu"
+		],
+		"wpn_fps_shot_shorty_b_legendary_addon_r870": [
+			"wpn_fps_shot_r870"
+		],
+		"wpn_fps_ass_74_b_legend": [
+			"wpn_fps_ass_74"
+		],
+		"wpn_fps_ass_74_b_legend_addon_akm": [
+			"wpn_fps_ass_akm"
+		],
+		"wpn_fps_ass_74_b_legend_addon_akm_gold": [
+			"wpn_fps_ass_akm_gold"
+		],
+		"wpn_fps_ass_74_b_legend_addon_akmsu": [
+			"wpn_fps_smg_akmsu",
+			"wpn_fps_smg_x_akmsu"
+		],
+		"wpn_fps_ass_74_b_legend_addon_rpk": [
+			"wpn_fps_lmg_rpk"
+		],
+		"wpn_fps_ass_74_b_legend_addon_saiga": [
+			"wpn_fps_shot_saiga"
+		]
+	},
+	"grip": {
+		"wpn_fps_shot_r870_s_legendary": [
+			"wpn_fps_shot_r870"
+		],
+		"wpn_fps_shot_r870_s_legendary_addon_serbu": [
+			"wpn_fps_shot_serbu"
+		],
+		"wpn_fps_shot_shorty_s_legendary": [
+			"wpn_fps_shot_serbu"
+		],
+		"wpn_fps_shot_shorty_s_legendary_addon_r870": [
+			"wpn_fps_shot_r870"
+		]
+	}
+}

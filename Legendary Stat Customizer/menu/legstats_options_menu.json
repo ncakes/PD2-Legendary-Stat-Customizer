@@ -1,0 +1,8 @@
+{
+	"menu_id": "legstats_options_menu",
+	"parent_menu_id": "blt_options",
+	"title": "legstats_options_menu_title",
+	"description": "legstats_options_menu_desc",
+	"back_callback": "legstats_callback_back",
+	"items": []
+}

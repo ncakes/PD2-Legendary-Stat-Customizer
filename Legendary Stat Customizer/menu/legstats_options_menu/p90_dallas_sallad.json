@@ -1,0 +1,37 @@
+{
+	"menu_id": "legstats_options_menu/p90_dallas_sallad",
+	"parent_menu_id": "legstats_options_menu",
+	"title": "legstats_options_menu/p90_dallas_sallad_title",
+	"description": "legstats_options_menu/p90_dallas_sallad_desc",
+	"back_callback": "legstats_callback_back",
+	"items": [
+		{
+			"type": "toggle",
+			"id": "wpn_fps_smg_p90_b_legend_hide_barrel_ext",
+			"title": "legstats_hide_barrel_ext_title",
+			"description": "legstats_body_kit_hides_barrel_ext_desc",
+			"callback": "legstats_callback_toggle",
+			"value": "wpn_fps_smg_p90_b_legend_hide_barrel_ext"
+		},
+		{
+			"type": "divider",
+			"size": 16
+		},
+		{
+			"type": "multiple_choice",
+			"id": "wpn_fps_smg_p90_b_legend",
+			"title": "legstats_bm_menu_body_kit",
+			"description": "wpn_fps_smg_p90_b_legend_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig",
+				"legstats_choice_none"
+			],
+			"item_values": [
+				"orig",
+				"none"
+			],
+			"value": "wpn_fps_smg_p90_b_legend"
+		}
+	]
+}

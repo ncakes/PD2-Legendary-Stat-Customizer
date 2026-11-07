@@ -1,0 +1,105 @@
+{
+	"menu_id": "legstats_options_menu/serbu_lones",
+	"parent_menu_id": "legstats_options_menu",
+	"title": "legstats_options_menu/serbu_lones_title",
+	"description": "legstats_options_menu/serbu_lones_desc",
+	"back_callback": "legstats_callback_back",
+	"items": [
+		{
+			"type": "toggle",
+			"id": "wpn_fps_shot_shorty_b_legendary_hide_barrel_ext",
+			"title": "legstats_hide_barrel_ext_title",
+			"description": "legstats_barrel_hides_barrel_ext_desc",
+			"callback": "legstats_callback_toggle",
+			"value": "wpn_fps_shot_shorty_b_legendary_hide_barrel_ext"
+		},
+		{
+			"type": "toggle",
+			"id": "wpn_fps_shot_shorty_s_legendary_hide_grip",
+			"title": "legstats_hide_grip_title",
+			"description": "legstats_stock_hides_grip_desc",
+			"callback": "legstats_callback_toggle",
+			"value": "wpn_fps_shot_shorty_s_legendary_hide_grip"
+		},
+		{
+			"type": "divider",
+			"size": 16
+		},
+		{
+			"type": "multiple_choice",
+			"id": "wpn_fps_shot_shorty_b_legendary",
+			"title": "bm_menu_barrel",
+			"description": "wpn_fps_shot_shorty_b_legendary_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig",
+				"legstats_choice_none",
+				"bm_wp_r870_b_legend"
+			],
+			"item_values": [
+				"orig",
+				"none",
+				"wpn_fps_shot_r870_b_legendary"
+			],
+			"value": "wpn_fps_shot_shorty_b_legendary"
+		},
+		{
+			"type": "multiple_choice",
+			"id": "wpn_fps_shot_shorty_fg_legendary",
+			"title": "bm_menu_foregrip",
+			"description": "wpn_fps_shot_shorty_fg_legendary_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig",
+				"legstats_choice_none"
+			],
+			"item_values": [
+				"orig",
+				"none"
+			],
+			"value": "wpn_fps_shot_shorty_fg_legendary"
+		},
+		{
+			"type": "multiple_choice",
+			"id": "wpn_fps_shot_shorty_s_legendary",
+			"title": "bm_menu_stock",
+			"description": "wpn_fps_shot_shorty_s_legendary_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig_none",
+				"legstats_bm_wp_m4_s_standard",
+				"legstats_bm_wp_r870_s_solid",
+				"bm_wp_serbu_s_solid_short",
+				"bm_wp_m4_s_pts",
+				"bm_wp_serbu_s_nostock_short",
+				"bm_wp_r870_s_folding",
+				"bm_wp_upg_m4_s_crane",
+				"bm_wp_upg_m4_s_mk46",
+				"bm_wp_upg_m4_s_ubr",
+				"bm_wp_tti_s_vltor",
+				"bm_wp_sko12_stock",
+				"bm_wp_victor_s_mod0"
+			],
+			"item_values": [
+				"orig",
+				"wpn_fps_upg_m4_s_standard",
+				"wpn_fps_shot_r870_s_solid",
+				"wpn_fps_shot_shorty_s_solid_short",
+				"wpn_fps_upg_m4_s_pts",
+				"wpn_fps_shot_shorty_s_nostock_short",
+				"wpn_fps_shot_r870_s_folding",
+				"wpn_fps_upg_m4_s_crane",
+				"wpn_fps_upg_m4_s_mk46",
+				"wpn_fps_upg_m4_s_ubr",
+				"wpn_fps_snp_tti_s_vltor",
+				"wpn_fps_sho_sko12_stock",
+				"wpn_fps_snp_victor_s_mod0"
+			],
+			"value": "wpn_fps_shot_shorty_s_legendary"
+		},
+		{
+			"type": "divider",
+			"size": 16
+		}
+	]
+}

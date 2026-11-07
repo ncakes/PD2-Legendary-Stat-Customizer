@@ -1,0 +1,133 @@
+{
+	"menu_id": "legstats_options_menu/ak74_rodina/rpk",
+	"parent_menu_id": "legstats_options_menu/ak74_rodina",
+	"title": "legstats_options_menu/ak74_rodina/rpk_title",
+	"description": "legstats_options_menu/ak74_rodina/rpk_desc",
+	"back_callback": "legstats_callback_back",
+	"items": [
+		{
+			"type": "toggle",
+			"id": "wpn_fps_ass_74_b_legend_addon_rpk_hide_barrel_ext",
+			"title": "legstats_hide_barrel_ext_title",
+			"description": "legstats_barrel_hides_barrel_ext_desc",
+			"callback": "legstats_callback_toggle",
+			"value": "wpn_fps_ass_74_b_legend_addon_rpk_hide_barrel_ext"
+		},
+		{
+			"type": "divider",
+			"size": 16
+		},
+		{
+			"type": "multiple_choice",
+			"id": "wpn_fps_ass_74_b_legend_addon_rpk",
+			"title": "bm_menu_barrel",
+			"description": "wpn_fps_ass_74_b_legend_addon_rpk_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig",
+				"legstats_choice_none"
+			],
+			"item_values": [
+				"orig",
+				"none"
+			],
+			"value": "wpn_fps_ass_74_b_legend_addon_rpk"
+		},
+		{
+			"type": "multiple_choice",
+			"id": "wpn_upg_ak_fg_legend_addon_rpk",
+			"title": "bm_menu_foregrip",
+			"description": "wpn_upg_ak_fg_legend_addon_rpk_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig_none",
+				"bm_wp_rpk_fg_standard"
+			],
+			"item_values": [
+				"orig",
+				"wpn_fps_lmg_rpk_fg_standard"
+			],
+			"value": "wpn_upg_ak_fg_legend_addon_rpk"
+		},
+		{
+			"type": "multiple_choice",
+			"id": "wpn_upg_ak_fl_legend_addon_rpk",
+			"title": "legstats_bm_menu_laser",
+			"description": "wpn_upg_ak_fl_legend_addon_rpk_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig_none",
+				"bm_wp_upg_fl_dbal_laser"
+			],
+			"item_values": [
+				"orig",
+				"wpn_fps_upg_fl_dbal_laser"
+			],
+			"value": "wpn_upg_ak_fl_legend_addon_rpk"
+		},
+		{
+			"type": "multiple_choice",
+			"id": "wpn_upg_ak_g_legend_addon_rpk",
+			"title": "bm_menu_grip",
+			"description": "wpn_upg_ak_g_legend_addon_rpk_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig_none",
+				"bm_wp_upg_ak_g_hgrip",
+				"bm_wp_upg_ak_g_pgrip",
+				"bm_wp_upg_ak_g_wgrip",
+				"bm_wp_upg_ak_g_rk3",
+				"wpn_fps_upg_ak_g_edg",
+				"wpn_fps_upg_ak_g_gradus",
+				"wpn_fps_upg_ak_g_rk9"
+			],
+			"item_values": [
+				"orig",
+				"wpn_fps_upg_ak_g_hgrip",
+				"wpn_fps_upg_ak_g_pgrip",
+				"wpn_fps_upg_ak_g_wgrip",
+				"wpn_fps_upg_ak_g_rk3",
+				"wpn_fps_upg_ak_g_edg",
+				"wpn_fps_upg_ak_g_gradus",
+				"wpn_fps_upg_ak_g_rk9"
+			],
+			"value": "wpn_upg_ak_g_legend_addon_rpk"
+		},
+		{
+			"type": "multiple_choice",
+			"id": "wpn_upg_ak_s_legend_addon_rpk",
+			"title": "bm_menu_stock",
+			"description": "wpn_upg_ak_s_legend_addon_rpk_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig_none",
+				"bm_wp_m4_s_standard",
+				"bm_wp_m4_s_pts",
+				"bm_wp_ak_s_folding",
+				"bm_wp_rpk_s_standard",
+				"bm_wp_upg_m4_s_crane",
+				"bm_wp_upg_m4_s_mk46",
+				"bm_wp_upg_ak_s_solidstock",
+				"bm_wp_upg_m4_s_ubr",
+				"bm_wp_tti_s_vltor",
+				"bm_wp_ak_upg_s_zenitco",
+				"bm_wp_sko12_stock"
+			],
+			"item_values": [
+				"orig",
+				"wpn_fps_upg_m4_s_standard",
+				"wpn_fps_upg_m4_s_pts",
+				"wpn_upg_ak_s_folding",
+				"wpn_fps_lmg_rpk_s_standard",
+				"wpn_fps_upg_m4_s_crane",
+				"wpn_fps_upg_m4_s_mk46",
+				"wpn_fps_upg_ak_s_solidstock",
+				"wpn_fps_upg_m4_s_ubr",
+				"wpn_fps_snp_tti_s_vltor",
+				"wpn_fps_upg_ak_s_zenitco",
+				"wpn_fps_sho_sko12_stock"
+			],
+			"value": "wpn_upg_ak_s_legend_addon_rpk"
+		}
+	]
+}

@@ -1,0 +1,87 @@
+{
+	"menu_id": "legstats_options_menu/boot_buck",
+	"parent_menu_id": "legstats_options_menu",
+	"title": "legstats_options_menu/boot_buck_title",
+	"description": "legstats_options_menu/boot_buck_desc",
+	"back_callback": "legstats_callback_back",
+	"items": [
+		{
+			"type": "toggle",
+			"id": "wpn_fps_sho_boot_b_legendary_hide_barrel_ext",
+			"title": "legstats_hide_barrel_ext_title",
+			"description": "legstats_barrel_hides_barrel_ext_desc",
+			"callback": "legstats_callback_toggle",
+			"value": "wpn_fps_sho_boot_b_legendary_hide_barrel_ext"
+		},
+		{
+			"type": "divider",
+			"size": 16
+		},
+		{
+			"type": "multiple_choice",
+			"id": "wpn_fps_sho_boot_b_legendary",
+			"title": "bm_menu_barrel",
+			"description": "wpn_fps_sho_boot_b_legendary_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig",
+				"legstats_choice_none",
+				"bm_wp_boot_b_long",
+				"bm_wp_boot_b_short"
+			],
+			"item_values": [
+				"orig",
+				"none",
+				"wpn_fps_sho_boot_b_long",
+				"wpn_fps_sho_boot_b_short"
+			],
+			"value": "wpn_fps_sho_boot_b_legendary"
+		},
+		{
+			"type": "multiple_choice",
+			"id": "wpn_fps_sho_boot_fg_legendary",
+			"title": "bm_menu_foregrip",
+			"description": "wpn_fps_sho_boot_fg_legendary_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig",
+				"legstats_choice_none"
+			],
+			"item_values": [
+				"orig",
+				"none"
+			],
+			"value": "wpn_fps_sho_boot_fg_legendary"
+		},
+		{
+			"type": "multiple_choice",
+			"id": "wpn_fps_sho_boot_o_legendary",
+			"title": "bm_menu_sight",
+			"description": "wpn_fps_sho_boot_o_legendary_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig_none"
+			],
+			"item_values": [
+				"orig"
+			],
+			"value": "wpn_fps_sho_boot_o_legendary"
+		},
+		{
+			"type": "multiple_choice",
+			"id": "wpn_fps_sho_boot_s_legendary",
+			"title": "bm_menu_stock",
+			"description": "wpn_fps_sho_boot_s_legendary_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig_none",
+				"bm_wp_boot_s_long"
+			],
+			"item_values": [
+				"orig",
+				"wpn_fps_sho_boot_s_long"
+			],
+			"value": "wpn_fps_sho_boot_s_legendary"
+		}
+	]
+}

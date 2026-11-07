@@ -1,0 +1,97 @@
+{
+	"menu_id": "legstats_options_menu/m16_cola",
+	"parent_menu_id": "legstats_options_menu",
+	"title": "legstats_options_menu/m16_cola_title",
+	"description": "legstats_options_menu/m16_cola_desc",
+	"back_callback": "legstats_callback_back",
+	"items": [
+		{
+			"type": "toggle",
+			"id": "wpn_fps_ass_m16_b_legend_hide_barrel_ext",
+			"title": "legstats_hide_barrel_ext_title",
+			"description": "legstats_barrel_hides_barrel_ext_desc",
+			"callback": "legstats_callback_toggle",
+			"value": "wpn_fps_ass_m16_b_legend_hide_barrel_ext"
+		},
+		{
+			"type": "divider",
+			"size": 16
+		},
+		{
+			"type": "multiple_choice",
+			"id": "wpn_fps_ass_m16_b_legend",
+			"title": "bm_menu_barrel",
+			"description": "wpn_fps_ass_m16_b_legend_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig",
+				"legstats_choice_none",
+				"bm_wp_m4_uupg_b_long",
+				"bm_wp_upg_ass_m4_b_beowulf"
+			],
+			"item_values": [
+				"orig",
+				"none",
+				"wpn_fps_m4_uupg_b_long",
+				"wpn_fps_upg_ass_m4_b_beowulf"
+			],
+			"value": "wpn_fps_ass_m16_b_legend"
+		},
+		{
+			"type": "multiple_choice",
+			"id": "wpn_fps_ass_m16_fg_legend",
+			"title": "bm_menu_foregrip",
+			"description": "wpn_fps_ass_m16_fg_legend_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig_none",
+				"bm_wp_m16_fg_railed",
+				"bm_wp_m16_fg_vietnam",
+				"bm_wp_upg_ass_m16_fg_stag",
+				"bm_wp_m4_uupg_fg_radian"
+			],
+			"item_values": [
+				"orig",
+				"wpn_fps_m16_fg_railed",
+				"wpn_fps_m16_fg_vietnam",
+				"wpn_fps_upg_ass_m16_fg_stag",
+				"wpn_fps_uupg_fg_radian"
+			],
+			"value": "wpn_fps_ass_m16_fg_legend"
+		},
+		{
+			"type": "multiple_choice",
+			"id": "wpn_fps_ass_m16_s_legend",
+			"title": "bm_menu_stock",
+			"description": "wpn_fps_ass_m16_s_legend_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig",
+				"legstats_choice_none",
+				"bm_wp_upg_m4_s_crane",
+				"bm_wp_upg_m4_s_mk46",
+				"bm_wp_upg_m4_s_ubr",
+				"bm_wp_tti_s_vltor",
+				"bm_wp_sko12_stock",
+				"bm_wp_victor_s_mod0",
+				"bm_wp_m4_uupg_s_zulu"
+			],
+			"item_values": [
+				"orig",
+				"none",
+				"wpn_fps_upg_m4_s_crane",
+				"wpn_fps_upg_m4_s_mk46",
+				"wpn_fps_upg_m4_s_ubr",
+				"wpn_fps_snp_tti_s_vltor",
+				"wpn_fps_sho_sko12_stock",
+				"wpn_fps_snp_victor_s_mod0",
+				"wpn_fps_m4_uupg_s_zulu"
+			],
+			"value": "wpn_fps_ass_m16_s_legend"
+		},
+		{
+			"type": "divider",
+			"size": 16
+		}
+	]
+}

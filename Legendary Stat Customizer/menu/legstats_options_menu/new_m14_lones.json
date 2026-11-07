@@ -1,0 +1,75 @@
+{
+	"menu_id": "legstats_options_menu/new_m14_lones",
+	"parent_menu_id": "legstats_options_menu",
+	"title": "legstats_options_menu/new_m14_lones_title",
+	"description": "legstats_options_menu/new_m14_lones_desc",
+	"back_callback": "legstats_callback_back",
+	"items": [
+		{
+			"type": "multiple_choice",
+			"id": "wpn_fps_ass_m14_b_legendary",
+			"title": "bm_menu_barrel",
+			"description": "wpn_fps_ass_m14_b_legendary_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig",
+				"legstats_choice_none"
+			],
+			"item_values": [
+				"orig",
+				"none"
+			],
+			"value": "wpn_fps_ass_m14_b_legendary"
+		},
+		{
+			"type": "multiple_choice",
+			"id": "wpn_fps_ass_m14_body_lower_legendary",
+			"title": "bm_menu_lower_reciever",
+			"description": "wpn_fps_ass_m14_body_lower_legendary_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig_none"
+			],
+			"item_values": [
+				"orig"
+			],
+			"value": "wpn_fps_ass_m14_body_lower_legendary"
+		},
+		{
+			"type": "multiple_choice",
+			"id": "wpn_fps_ass_m14_body_legendary",
+			"title": "bm_menu_stock",
+			"description": "wpn_fps_ass_m14_body_legendary_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig",
+				"legstats_choice_none",
+				"bm_wp_m14_body_ebr",
+				"bm_wp_m14_body_jae",
+				"bm_wp_m14_body_ruger"
+			],
+			"item_values": [
+				"orig",
+				"none",
+				"wpn_fps_ass_m14_body_ebr",
+				"wpn_fps_ass_m14_body_jae",
+				"wpn_fps_ass_m14_body_ruger"
+			],
+			"value": "wpn_fps_ass_m14_body_legendary"
+		},
+		{
+			"type": "multiple_choice",
+			"id": "wpn_fps_ass_m14_body_upper_legendary",
+			"title": "bm_menu_upper_reciever",
+			"description": "wpn_fps_ass_m14_body_upper_legendary_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig_none"
+			],
+			"item_values": [
+				"orig"
+			],
+			"value": "wpn_fps_ass_m14_body_upper_legendary"
+		}
+	]
+}

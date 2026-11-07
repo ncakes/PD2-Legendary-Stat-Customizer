@@ -1,0 +1,43 @@
+{
+	"menu_id": "legstats_options_menu/m134_bulletstorm",
+	"parent_menu_id": "legstats_options_menu",
+	"title": "legstats_options_menu/m134_bulletstorm_title",
+	"description": "legstats_options_menu/m134_bulletstorm_desc",
+	"back_callback": "legstats_callback_back",
+	"items": [
+		{
+			"type": "multiple_choice",
+			"id": "wpn_fps_lmg_m134_barrel_legendary",
+			"title": "bm_menu_barrel",
+			"description": "wpn_fps_lmg_m134_barrel_legendary_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig_none",
+				"bm_wp_m134_barrel_extreme",
+				"bm_wp_m134_barrel_short"
+			],
+			"item_values": [
+				"orig",
+				"wpn_fps_lmg_m134_barrel_extreme",
+				"wpn_fps_lmg_m134_barrel_short"
+			],
+			"value": "wpn_fps_lmg_m134_barrel_legendary"
+		},
+		{
+			"type": "multiple_choice",
+			"id": "wpn_fps_lmg_m134_body_upper_spikey",
+			"title": "legstats_bm_menu_body_kit",
+			"description": "wpn_fps_lmg_m134_body_upper_spikey_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig_none",
+				"bm_wp_m134_body_upper_light"
+			],
+			"item_values": [
+				"orig",
+				"wpn_fps_lmg_m134_body_upper_light"
+			],
+			"value": "wpn_fps_lmg_m134_body_upper_spikey"
+		}
+	]
+}

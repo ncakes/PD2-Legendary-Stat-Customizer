@@ -1,0 +1,47 @@
+{
+	"menu_id": "legstats_options_menu/x_1911_ginger",
+	"parent_menu_id": "legstats_options_menu",
+	"title": "legstats_options_menu/x_1911_ginger_title",
+	"description": "legstats_options_menu/x_1911_ginger_desc",
+	"back_callback": "legstats_callback_back",
+	"items": [
+		{
+			"type": "multiple_choice",
+			"id": "wpn_fps_pis_1911_fl_legendary",
+			"title": "legstats_bm_menu_laser",
+			"description": "wpn_fps_pis_1911_fl_legendary_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig",
+				"legstats_choice_none",
+				"bm_wp_upg_fl_pis_perst"
+			],
+			"item_values": [
+				"orig",
+				"none",
+				"wpn_fps_upg_fl_pis_perst"
+			],
+			"value": "wpn_fps_pis_1911_fl_legendary"
+		},
+		{
+			"type": "multiple_choice",
+			"id": "wpn_fps_pis_1911_g_legendary",
+			"title": "bm_menu_grip",
+			"description": "wpn_fps_pis_1911_g_legendary_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig_none",
+				"bm_wp_1911_g_ergo",
+				"bm_wp_1911_g_bling",
+				"bm_wp_1911_g_engraved"
+			],
+			"item_values": [
+				"orig",
+				"wpn_fps_pis_1911_g_ergo",
+				"wpn_fps_pis_1911_g_bling",
+				"wpn_fps_pis_1911_g_engraved"
+			],
+			"value": "wpn_fps_pis_1911_g_legendary"
+		}
+	]
+}

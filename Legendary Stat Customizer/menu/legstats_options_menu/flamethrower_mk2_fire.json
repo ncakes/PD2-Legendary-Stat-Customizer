@@ -1,0 +1,25 @@
+{
+	"menu_id": "legstats_options_menu/flamethrower_mk2_fire",
+	"parent_menu_id": "legstats_options_menu",
+	"title": "legstats_options_menu/flamethrower_mk2_fire_title",
+	"description": "legstats_options_menu/flamethrower_mk2_fire_desc",
+	"back_callback": "legstats_callback_back",
+	"items": [
+		{
+			"type": "multiple_choice",
+			"id": "wpn_fps_fla_mk2_body_fierybeast",
+			"title": "legstats_bm_menu_receiver",
+			"description": "wpn_fps_fla_mk2_body_fierybeast_desc",
+			"callback": "legstats_callback_multi",
+			"items": [
+				"legstats_choice_orig",
+				"legstats_choice_none"
+			],
+			"item_values": [
+				"orig",
+				"none"
+			],
+			"value": "wpn_fps_fla_mk2_body_fierybeast"
+		}
+	]
+}
